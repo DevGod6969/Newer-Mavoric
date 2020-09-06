@@ -65,9 +65,9 @@ used on a mass scale to help improve it's overall functionality. Mavoric is also
 which is a upcoming minigame server with unique minigames.
 
 ## Versions
-This is a list of **public** releases for v2.0.0 and later, with detail about each release and a provided download. 
-If you wish to view releases prior to v2.0.0 please [click here](https://github.com/Bavfalcon9/Mavoric/tree/v2.0.0/resources/github/Releases.md)<br/>
+This is a list of **public** releases for v3.0.0 and later, with detail about each release and a provided download. 
+If you wish to view releases prior to v3.0.0 please [click here](https://github.com/Bavfalcon9/Mavoric/tree/v3.0.0/resources/github/Releases.md)<br/>
 Releases containing a asterisk (`*`) are development releases and are expected to have bugs and issues.
 Version | Released | Completed | Download 
 ------- | ------- | ---------- | --------
-v2.0.0-alpha`*` | June 28th 2020 | ✔ Yes | `*`[Mavoric_v2.0.0-alpha](https://github.com/Bavfalcon9/Mavoric/releases/download/v2.0.0/Mavoric_v2.0.0.phar)
+v3.0.0-alpha1`*` | September 7th 2020 | ✔ Yes | `*`[No Link]()
