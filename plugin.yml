@@ -1,11 +1,6 @@
 name: Mavoric
-main: Bavfalcon9\Mavoric\Loader
-version: 2.0.0-beta
-api:
-  - 3.0.0
-load: POSTWORLD
-author: Bavfalcon9
-permissions: 
-  mavoric.alerts:
-    default: op
-    description: "Allow usage of /alerts and the ability to see alerts."
+main: Bavfalcon9\Mavoric\Mavoric
+version: 1.0.0
+api: unstable
+target: deno-1.3.3
+allow-compiled: yes

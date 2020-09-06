@@ -20,6 +20,3 @@ LagHandler.php
 
 #ignore github fixes
 .githubFixes/*
-
-# ignore source for now
-src/*
