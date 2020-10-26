@@ -20,3 +20,6 @@ LagHandler.php
 
 #ignore github fixes
 .githubFixes/*
+.tbin/*
+
+.typesharpdbug

@@ -1,0 +1,72 @@
+# ASM=silent
+Indexing...
+ | --> checks\FlyCheck.typesharp
+ | --> Mavoric.typesharp
+Indexed!
+Lexing...
+Lexed!
+Parsing...
+[Option Warning]
+|
+| File: Compiler
+| Rule: Use as imports
+| Value: true
+|        ~~~~
+\________^^^
+| ---> This option is experimental.
+[Namespace Error]
+|
+(Mavoric.typesharp):3 --> import * from 'netrex-typesharp';
+|                                        ~~~~~~~~~~~~~~~~
+\________________________________________^^^
+| ---> No module by the name "netrex-typesharp" was found.
+| ---> You may need to install this with "typesharp install".
+SP> No possible solutions at this time.
+[Namespace Error]
+|
+(Mavoric.typesharp):4 --> import * from Mavoric;
+|                                       ~~~~~~~
+\_______________________________________^^^
+| ---> Can not resolve namespace "Mavoric"
+SP> No possible solutions at this time.
+Parsing failed.
+\btypesh
+Indexing...
+ | --> checks\FlyCheck.typesharp
+ | --> Mavoric.typesharp
+Indexed!
+Lexing...
+Lexed!
+Parsing...
+Parsed!
+Compiling...
+ | -> Mavoric.typesharp
+    | Compiling...
+    | ✓ Passed
+ | -> FlyCheck.typesharp
+    | Compiling...
+    | ERROR: No decleration.
+    | ❌ Failed.
+ | Finishing...
+    | Format "DOS"
+      | Saving...
+      | Saved as "Mavoric.dll"
+    | Format "UNIX"
+      | Saving...
+      | Saved as "Mavoric.so"
+    | Format "MAC-OSX"
+      | SP! "PEF"
+      | Saving...
+      | Failed, PEF dependent not found.
+Finished!
+Compiled!
+Compiling...
+ | -> Mavoric.typesharp
+    | Compiling...
+    | ✓ Passed
+ | Finishing...
+    | Saving...
+    | Saved as "Mavoric.tdp"
+Finished!
+Compiled!
+Mavoric now availible in tbin/*

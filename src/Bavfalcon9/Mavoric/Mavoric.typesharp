@@ -1,0 +1,39 @@
+namespace Mavoric;
+
+import * from 'netrex';
+import * from 'typesharp';
+
+// @compiler import-as-use
+use Mavoric::*;
+
+class MavoricPlugin extends Plugin {
+     public static packetPool: PacketPool<Packet>;
+
+     @Event('PluginEnabled')
+     public function enabled(): bool {
+          self.packetPool = new PacketPool<Packet>();
+     }
+}
+
+@performanceTest({
+     debugOnly: true
+})
+private function hooktest(): void {
+     const depencency: Typesharp.Depencency<Netrex> = getDepencency('netrex');
+     
+     if (!exists(depencency)) {
+          printf('Could not find netrex.');
+          this.fail();
+     } else {
+          this.pass();
+     }
+}
+
+function main(): void {
+     // do bench marks
+     const timestamp: double = Time.now(); // double to be accurate
+
+     hooktest();
+
+     printf(`Test took: ${Time.now() - timestamp}ms`);
+}
