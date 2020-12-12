@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img width="150" alt="portfolio_view" src="https://raw.githubusercontent.com/Bavfalcon9/Mavoric/stable/resources/assets/mavoric_black_and_white.png">
+    <img width="150" alt="portfolio_view" src="https://raw.githubusercontent.com/Bavfalcon9/Mavoric/v2.0.0/resources/assets/mavoric_black_and_white.png">
   </p>
   <p>
     <h1> Mavoric Anticheat</h1>
@@ -16,6 +16,8 @@
   </p>
 </div>
 
+## Notice
+Mavoric is not longer maintained and here for legacy purposes.
 
 ## Information
 Mavoric is a plugin designed to enforce the generic functions of MC:BE. Mavoric is designed to execute and enforce 
