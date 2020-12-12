@@ -16,8 +16,9 @@
   </p>
 </div>
 
-## Notice
+# Archive Notice
 Mavoric is not longer maintained and here for legacy purposes.
+Please see: https://github.com/Bavfalcon9/Mavoric/issues/84 for more detail.
 
 ## Information
 Mavoric is a plugin designed to enforce the generic functions of MC:BE. Mavoric is designed to execute and enforce 
