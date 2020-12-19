@@ -1,10 +1,11 @@
-name: Mavoric
+name: New-Mavoric
 main: Bavfalcon9\Mavoric\Loader
-version: 2.0.0-beta
-api:
-  - 3.0.0
+version: 2.0.0
+api: 3.0.0
 load: POSTWORLD
-author: Bavfalcon9
+author: 
+- Bavfalcon9
+- CrowBaldeYT
 permissions: 
   mavoric.alerts:
     default: op
