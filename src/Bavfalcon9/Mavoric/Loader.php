@@ -38,7 +38,8 @@ class Loader extends PluginBase {
             $commandMap = $this->getServer()->getCommandMap();
             $commandMap->registerAll('Mavoric', [
                 new AlertCommand($this, $this->mavoric),
-                new LogCommand($this, $this->mavoric)
+                new LogCommand($this, $this->mavoric),
+                new HelpCommand($this, $this->mavoric)
             ]);
     }
 
