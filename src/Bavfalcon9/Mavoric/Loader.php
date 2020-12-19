@@ -40,10 +40,6 @@ class Loader extends PluginBase {
                 new AlertCommand($this, $this->mavoric),
                 new LogCommand($this, $this->mavoric)
             ]);
-        //} else {
-        //    $this->getLogger()->critical('Mavoric Development builds are not allowed on this server.');
-        //    $this->getServer()->getPluginManager()->disablePlugin($this);
-        //}
     }
 
     /**
