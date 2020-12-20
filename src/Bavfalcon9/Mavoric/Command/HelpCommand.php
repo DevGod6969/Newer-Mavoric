@@ -46,10 +46,6 @@ class LogCommand extends Command implements PluginIdentifiableCommand {
     public function execute(CommandSender $sender, string $commandLabel, array $args): void {
       if(!$sender->hasPermission("mavoric.help")){
         $sender->sendMessage("§cError§8:§4 No Permission to use this Command!");
+      }
     }
-    
-    if(!$sender instanceof Player){
-      $sender->sendMessage("§4Error§8:§4 You are not a Player!");
-    }
-  }
 }
