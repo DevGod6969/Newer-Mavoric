@@ -23,6 +23,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\entity\Living;
 use Bavfalcon9\Mavoric\Command\AlertCommand;
 use Bavfalcon9\Mavoric\Command\LogCommand;
+use Bavfalcon9\Mavoric\Command\HelpCommand;
 
 class Loader extends PluginBase {
     /** @var Mavoric */
