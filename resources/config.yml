@@ -40,7 +40,7 @@ Modules:
       Reach:
         enabled: true
         mode: ban
-        time: 7d
+        time: 30d
         limit: default
   Movement:
     enabled: true
