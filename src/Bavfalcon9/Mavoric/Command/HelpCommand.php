@@ -37,7 +37,7 @@ class LogCommand extends Command implements PluginIdentifiableCommand {
         parent::__construct("helpmavoric");
         $this->plugin = $plugin;
         $this->mavoric = $mavoric;
-        $this->description = "";
+        $this->description = "See all mavoric commands.";
         $this->usageMessage = "/helpmavoric";
         $this->setAliases(['hm']);
         $this->setPermission("mavoric.help");
@@ -45,7 +45,13 @@ class LogCommand extends Command implements PluginIdentifiableCommand {
     
     public function execute(CommandSender $sender, string $commandLabel, array $args): void {
       if(!$sender->hasPermission("mavoric.help")){
-        $sender->sendMessage("§cError§8:§4 No Permission to use this Command!");
+        $sender->sendMessage("§cError§8:§4 You have no permission to use this Command!");
+      } else {
+        $sender->sendMessage("§8======= §aHelp §8=======");
+        $sender->sendMessage("§a/alert§8 - §7Toggle alerts.§8 - §7mavoric.alerts");
+        $sender->sendMessage("§a/logs§8 - §7Manage Logs for a user.§8 - §7mavoric.alerts");
+        $sender->sendMessage("§a/helpmavoric§8 - §7See all mavoric commands.§8 - §7mavoric.alerts");
+        $sender->sendMessage("§8======= §aHelp §8=======");
       }
     }
 }
