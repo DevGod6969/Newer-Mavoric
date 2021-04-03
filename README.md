@@ -4,9 +4,6 @@
   </p>
   <p>
     <h1> Newer-Mavoric Anticheat</h1>
-    <a href="https://discord.gg/2humhkN">
-      <img src="https://discordapp.com/api/guilds/683167375771828277/embed.png" alt="Discord">
-    </a>
     <a href="https://poggit.pmmp.io/p/Mavoric">
       <img src="https://poggit.pmmp.io/shield.state/Mavoric">
     </a>
