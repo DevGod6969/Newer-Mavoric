@@ -3,7 +3,7 @@
     <img width="150" alt="portfolio_view" src="https://raw.githubusercontent.com/Bavfalcon9/Mavoric/v2.0.0/resources/assets/mavoric_black_and_white.png">
   </p>
   <p>
-    <h1> Mavoric Anticheat</h1>
+    <h1> Newer-Mavoric Anticheat</h1>
     <a href="https://discord.gg/2humhkN">
       <img src="https://discordapp.com/api/guilds/683167375771828277/embed.png" alt="Discord">
     </a>
