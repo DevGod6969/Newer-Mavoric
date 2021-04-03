@@ -65,8 +65,8 @@ which is a upcoming minigame server with unique minigames.
 
 ## Versions
 This is a list of **public** releases for v2.0.0 and later, with detail about each release and a provided download. 
-If you wish to view releases prior to v2.0.0 please [click here](https://github.com/Bavfalcon9/Mavoric/tree/v2.0.0/resources/github/Releases.md)<br/>
+If you wish to view releases prior to v2.0.0 please [click here](https://github.com/CrowBaldeYT/Newer-Mavoric/releases)<br/>
 Releases containing a asterisk (`*`) are development releases and are expected to have bugs and issues.
 Version | Released | Completed | Download 
 ------- | ------- | ---------- | --------
-v2.0.0-alpha`*` | June 28th 2020 | ✔ Yes | `*`[Mavoric_v2.0.0-alpha](https://github.com/Bavfalcon9/Mavoric/releases/download/v2.0.0/Mavoric_v2.0.0.phar)
+v2.0.0-alpha`*` | June 28th 2020 | ✔ Yes | `*`[Mavoric_v2.0.0](https://github.com/CrowBaldeYT/Newer-Mavoric/releases/download/v2.0.0-alpha/New-Mavoric_v2.0.0.phar)
